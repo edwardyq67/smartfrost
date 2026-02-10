@@ -1,3 +1,3 @@
-export const production = {};
-export const development = {};
-export const test = {};
+export const production = {"NEXT_PUBLIC_API_VERSION":"api/v1","NEXT_PUBLIC_HOSTNAME":"https://service.teknis-developer.com/","NEXT_PUBLIC_WS_URL":"wss://y8s00v2xce.execute-api.us-east-1.amazonaws.com/production","NEXT_PUBLIC_GOOGLE_MAPS_API_KEY":"AIzaSyAOv4DEW5L9TnM0XPPpK2LwNDq8FlFX86Q","NEXT_PUBLIC_WS_DASHBOARD_URL":"https://7ltqgyjdudplzojg3ndbmt2tqi0znzcp.lambda-url.us-east-1.on.aws"};
+export const development = {"NEXT_PUBLIC_API_VERSION":"api/v1","NEXT_PUBLIC_HOSTNAME":"https://service.teknis-developer.com/","NEXT_PUBLIC_WS_URL":"wss://y8s00v2xce.execute-api.us-east-1.amazonaws.com/production","NEXT_PUBLIC_GOOGLE_MAPS_API_KEY":"AIzaSyAOv4DEW5L9TnM0XPPpK2LwNDq8FlFX86Q","NEXT_PUBLIC_WS_DASHBOARD_URL":"https://7ltqgyjdudplzojg3ndbmt2tqi0znzcp.lambda-url.us-east-1.on.aws"};
+export const test = {"NEXT_PUBLIC_API_VERSION":"api/v1","NEXT_PUBLIC_HOSTNAME":"https://service.teknis-developer.com/","NEXT_PUBLIC_WS_URL":"wss://y8s00v2xce.execute-api.us-east-1.amazonaws.com/production","NEXT_PUBLIC_GOOGLE_MAPS_API_KEY":"AIzaSyAOv4DEW5L9TnM0XPPpK2LwNDq8FlFX86Q","NEXT_PUBLIC_WS_DASHBOARD_URL":"https://7ltqgyjdudplzojg3ndbmt2tqi0znzcp.lambda-url.us-east-1.on.aws"};
