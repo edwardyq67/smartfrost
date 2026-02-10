@@ -1,4 +1,4 @@
-import Image from "next/image";
+'use client';
 import Login from "@/app/[lang]/login/page";
 export default function Home() {
   return (

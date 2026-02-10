@@ -26,6 +26,14 @@
         "nxtPlang": "nxtPlang"
       },
       "namedRegex": "^/(?<nxtPlang>[^/]+?)/login(?:/)?$"
+    },
+    {
+      "page": "/[lang]/usuarios",
+      "regex": "^/([^/]+?)/usuarios(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/usuarios(?:/)?$"
     }
   ],
   "staticRoutes": [

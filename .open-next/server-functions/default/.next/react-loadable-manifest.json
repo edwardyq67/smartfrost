@@ -10,5 +10,29 @@
     "files": [
       "static/chunks/646.f342b7cffc01feb0.js"
     ]
+  },
+  "app\\[lang]\\(dashboard)\\(home)\\usuarios\\basic-table.tsx -> ./components/usuarioEditar": {
+    "id": 9844,
+    "files": [
+      "static/chunks/981-0d8edd859db91143.js",
+      "static/chunks/844.68463aa98f17a07a.js"
+    ]
+  },
+  "app\\[lang]\\(dashboard)\\(home)\\usuarios\\page.tsx -> ./basic-table": {
+    "id": 592,
+    "files": [
+      "static/chunks/125-9227ccce5bffd573.js",
+      "static/chunks/193-7088a0eaf0cb27cd.js",
+      "static/chunks/22.3672ced21ce1c7a1.js",
+      "static/chunks/592.f1501f52c2416a2b.js"
+    ]
+  },
+  "app\\[lang]\\(dashboard)\\(home)\\usuarios\\page.tsx -> ./components/usuarioAgregar": {
+    "id": 5204,
+    "files": [
+      "static/chunks/125-9227ccce5bffd573.js",
+      "static/chunks/981-0d8edd859db91143.js",
+      "static/chunks/204.62e113df3ad1ddd6.js"
+    ]
   }
 }
