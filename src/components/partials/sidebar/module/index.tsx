@@ -10,7 +10,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import LogoutFooter from "./logout-footer";
-import thumbnail from "@/public/images/logo/_Logo_smartfrost.png"; // ✅ IMPORT CORRECTO
+import thumbnail from "@/public/images/logo/logosmartfrost.png"; // ✅ IMPORT CORRECTO
 import { useMediaQuery } from "@/hooks/use-media-query";
 import MenuOverlayPortal from "./MenuOverlayPortal";
 import { ChevronLeft } from "lucide-react"; // ✅ Solo ChevronLeft, eliminado Snowflake

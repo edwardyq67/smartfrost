@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import { X } from "lucide-react";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
-import thumbnail from "@/public/images/logo/_Logo_smartfrost.png";
+import thumbnail from "@/public/images/logo/logosmartfrost.png";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 const AddBlock = ({
