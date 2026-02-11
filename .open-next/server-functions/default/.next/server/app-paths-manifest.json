@@ -3,7 +3,7 @@
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/[lang]/auth/(login)/login/page": "app/[lang]/auth/(login)/login/page.js",
   "/page": "app/page.js",
-  "/[lang]/(dashboard)/(home)/trabajos/page": "app/[lang]/(dashboard)/(home)/trabajos/page.js",
   "/[lang]/(dashboard)/(home)/usuarios/page": "app/[lang]/(dashboard)/(home)/usuarios/page.js",
+  "/[lang]/(dashboard)/(home)/trabajos/page": "app/[lang]/(dashboard)/(home)/trabajos/page.js",
   "/[lang]/(dashboard)/(home)/dashboard/page": "app/[lang]/(dashboard)/(home)/dashboard/page.js"
 }

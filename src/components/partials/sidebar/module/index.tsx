@@ -8,13 +8,11 @@ import MenuItem from "./menu-item";
 import NestedMenus from "./nested-menus";
 import Image from "next/image";
 import Link from "next/link";
-
-import { SiteLogo } from "@/components/svg";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import LogoutFooter from "./logout-footer";
 import { useMediaQuery } from "@/hooks/use-media-query";
 import MenuOverlayPortal from "./MenuOverlayPortal";
-import { ChevronLeft } from "lucide-react";
+import { ChevronLeft,Snowflake  } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const ModuleSidebar = ({ trans }: { trans: any }) => {
@@ -159,7 +157,7 @@ const ModuleSidebar = ({ trans }: { trans: any }) => {
         >
           <div className=" pt-4 ">
             <Link href="/dashboard">
-              <SiteLogo className=" mx-auto text-primary h-8 w-8" />
+              <Snowflake className="mx-auto text-primary h-8 w-8" /> {/* ✅ AHORA FUNCIONA */}
             </Link>
           </div>
           {/* end logo */}

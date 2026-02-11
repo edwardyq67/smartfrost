@@ -3246,11 +3246,6 @@
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/usuarios/page_client-reference-manifest.js": {
-      "bytes": 11903,
-      "imports": [],
-      "format": "cjs"
-    },
     ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/trabajos/page_client-reference-manifest.js": {
       "bytes": 11903,
       "imports": [],
@@ -3261,8 +3256,13 @@
       "imports": [],
       "format": "cjs"
     },
+    ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/usuarios/page_client-reference-manifest.js": {
+      "bytes": 11903,
+      "imports": [],
+      "format": "cjs"
+    },
     ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.external.js": {
-      "bytes": 30558,
+      "bytes": 30557,
       "imports": [
         {
           "path": "path",
@@ -3300,11 +3300,6 @@
           "original": "C:\\Users\\edwar\\proyectos\\smartfrost\\.open-next\\server-functions\\default\\.next\\server\\app\\[lang]\\auth\\(login)\\login\\page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/usuarios/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "C:\\Users\\edwar\\proyectos\\smartfrost\\.open-next\\server-functions\\default\\.next\\server\\app\\[lang]\\(dashboard)\\(home)\\usuarios\\page_client-reference-manifest.js"
-        },
-        {
           "path": ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/trabajos/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "C:\\Users\\edwar\\proyectos\\smartfrost\\.open-next\\server-functions\\default\\.next\\server\\app\\[lang]\\(dashboard)\\(home)\\trabajos\\page_client-reference-manifest.js"
@@ -3313,6 +3308,11 @@
           "path": ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/dashboard/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "C:\\Users\\edwar\\proyectos\\smartfrost\\.open-next\\server-functions\\default\\.next\\server\\app\\[lang]\\(dashboard)\\(home)\\dashboard\\page_client-reference-manifest.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/usuarios/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "C:\\Users\\edwar\\proyectos\\smartfrost\\.open-next\\server-functions\\default\\.next\\server\\app\\[lang]\\(dashboard)\\(home)\\usuarios\\page_client-reference-manifest.js"
         }
       ],
       "format": "cjs"
@@ -3333,13 +3333,18 @@
       ],
       "format": "cjs"
     },
+    ".open-next/server-functions/default/.next/server/chunks/138.js": {
+      "bytes": 140643,
+      "imports": [],
+      "format": "cjs"
+    },
     ".open-next/server-functions/default/.next/server/chunks/332.js": {
       "bytes": 475848,
       "imports": [],
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/404.js": {
-      "bytes": 127992,
+      "bytes": 126179,
       "imports": [],
       "format": "cjs"
     },
@@ -3349,7 +3354,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/.next/server/chunks/499.js": {
-      "bytes": 23626,
+      "bytes": 21347,
       "imports": [],
       "format": "cjs"
     },
@@ -3389,11 +3394,6 @@
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/chunks/744.js": {
-      "bytes": 140029,
-      "imports": [],
-      "format": "cjs"
-    },
     ".open-next/server-functions/default/.next/server/chunks/837.js": {
       "bytes": 6647,
       "imports": [],
@@ -3402,6 +3402,11 @@
     ".open-next/server-functions/default/.next/server/webpack-runtime.js": {
       "bytes": 2225,
       "imports": [
+        {
+          "path": ".open-next/server-functions/default/.next/server/chunks/138.js",
+          "kind": "require-call",
+          "original": "./chunks/138.js"
+        },
         {
           "path": ".open-next/server-functions/default/.next/server/chunks/332.js",
           "kind": "require-call",
@@ -3451,11 +3456,6 @@
           "path": ".open-next/server-functions/default/.next/server/chunks/709.js",
           "kind": "require-call",
           "original": "./chunks/709.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/chunks/744.js",
-          "kind": "require-call",
-          "original": "./chunks/744.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/chunks/837.js",
@@ -4649,8 +4649,8 @@
       ],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/trabajos/page.js": {
-      "bytes": 19761,
+    ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/usuarios/page.js": {
+      "bytes": 19591,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/shared/lib/router/utils/app-paths.js",
@@ -4775,8 +4775,8 @@
       ],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/usuarios/page.js": {
-      "bytes": 19591,
+    ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/trabajos/page.js": {
+      "bytes": 19761,
       "imports": [
         {
           "path": ".open-next/server-functions/default/node_modules/next/dist/shared/lib/router/utils/app-paths.js",
@@ -5028,7 +5028,7 @@
       "format": "cjs"
     },
     ".open-next/server-functions/default/node_modules/next/dist/server/require.js": {
-      "bytes": 27139,
+      "bytes": 21978,
       "imports": [
         {
           "path": "path",
@@ -5111,14 +5111,14 @@
           "original": "C:\\Users\\edwar\\proyectos\\smartfrost\\.open-next\\server-functions\\default\\.next\\server\\app\\page.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/trabajos/page.js",
-          "kind": "require-call",
-          "original": "C:\\Users\\edwar\\proyectos\\smartfrost\\.open-next\\server-functions\\default\\.next\\server\\app\\[lang]\\(dashboard)\\(home)\\trabajos\\page.js"
-        },
-        {
           "path": ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/usuarios/page.js",
           "kind": "require-call",
           "original": "C:\\Users\\edwar\\proyectos\\smartfrost\\.open-next\\server-functions\\default\\.next\\server\\app\\[lang]\\(dashboard)\\(home)\\usuarios\\page.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/trabajos/page.js",
+          "kind": "require-call",
+          "original": "C:\\Users\\edwar\\proyectos\\smartfrost\\.open-next\\server-functions\\default\\.next\\server\\app\\[lang]\\(dashboard)\\(home)\\trabajos\\page.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/dashboard/page.js",
@@ -7019,7 +7019,7 @@
       "format": "esm"
     },
     ".open-next/server-functions/default/index.mjs": {
-      "bytes": 81020,
+      "bytes": 81019,
       "imports": [
         {
           "path": "node:module",
@@ -8624,14 +8624,14 @@
         ".open-next/server-functions/default/.next/server/app/[lang]/auth/(login)/login/page_client-reference-manifest.js": {
           "bytesInOutput": 11427
         },
-        ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/usuarios/page_client-reference-manifest.js": {
-          "bytesInOutput": 11178
-        },
         ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/trabajos/page_client-reference-manifest.js": {
           "bytesInOutput": 11178
         },
         ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/dashboard/page_client-reference-manifest.js": {
           "bytesInOutput": 11621
+        },
+        ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/usuarios/page_client-reference-manifest.js": {
+          "bytesInOutput": 11178
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/load-manifest.external.js": {
           "bytesInOutput": 22579
@@ -8642,17 +8642,20 @@
         ".open-next/server-functions/default/node_modules/react/jsx-runtime.js": {
           "bytesInOutput": 194
         },
+        ".open-next/server-functions/default/.next/server/chunks/138.js": {
+          "bytesInOutput": 148899
+        },
         ".open-next/server-functions/default/.next/server/chunks/332.js": {
-          "bytesInOutput": 492302
+          "bytesInOutput": 492303
         },
         ".open-next/server-functions/default/.next/server/chunks/404.js": {
-          "bytesInOutput": 131686
+          "bytesInOutput": 129856
         },
         ".open-next/server-functions/default/.next/server/chunks/426.js": {
           "bytesInOutput": 5010
         },
         ".open-next/server-functions/default/.next/server/chunks/499.js": {
-          "bytesInOutput": 24119
+          "bytesInOutput": 21834
         },
         ".open-next/server-functions/default/.next/server/chunks/517.js": {
           "bytesInOutput": 126065
@@ -8667,13 +8670,10 @@
           "bytesInOutput": 130480
         },
         ".open-next/server-functions/default/.next/server/chunks/611.js": {
-          "bytesInOutput": 71702
+          "bytesInOutput": 71703
         },
         ".open-next/server-functions/default/.next/server/chunks/709.js": {
           "bytesInOutput": 297655
-        },
-        ".open-next/server-functions/default/.next/server/chunks/744.js": {
-          "bytesInOutput": 148287
         },
         ".open-next/server-functions/default/.next/server/chunks/837.js": {
           "bytesInOutput": 13320
@@ -8801,17 +8801,17 @@
         ".open-next/server-functions/default/.next/server/app/page.js": {
           "bytesInOutput": 17203
         },
-        ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/trabajos/page.js": {
-          "bytesInOutput": 20016
-        },
         ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/usuarios/page.js": {
           "bytesInOutput": 19838
+        },
+        ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/trabajos/page.js": {
+          "bytesInOutput": 20016
         },
         ".open-next/server-functions/default/.next/server/app/[lang]/(dashboard)/(home)/dashboard/page.js": {
           "bytesInOutput": 155254
         },
         ".open-next/server-functions/default/node_modules/next/dist/server/require.js": {
-          "bytesInOutput": 23496
+          "bytesInOutput": 18411
         },
         ".open-next/server-functions/default/node_modules/next/dist/lib/wait.js": {
           "bytesInOutput": 341
@@ -9084,7 +9084,7 @@
           "bytesInOutput": 55719
         }
       },
-      "bytes": 4589272
+      "bytes": 4580686
     }
   }
 }

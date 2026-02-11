@@ -1,12 +1,13 @@
-// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    unoptimized: true, // ✅ Funciona en Cloudflare sin configuración extra
+  },
+  output: "standalone",
   eslint: {
-    // Deshabilitar ESLint durante el build
     ignoreDuringBuilds: true,
   },
   typescript: {
-    // También puedes ignorar errores TypeScript si quieres
     ignoreBuildErrors: true,
   },
 };
