@@ -20,6 +20,9 @@
 # production
 /build
 
+# 📌 OPENNEXT - CARPETA TEMPORAL DE BUILD
+/.open-next/
+
 # misc
 .DS_Store
 *.pem

@@ -20,6 +20,22 @@
   },
   "dynamicRoutes": [
     {
+      "page": "/[lang]/actuadores",
+      "regex": "^/([^/]+?)/actuadores(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/actuadores(?:/)?$"
+    },
+    {
+      "page": "/[lang]/auditoria",
+      "regex": "^/([^/]+?)/auditoria(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/auditoria(?:/)?$"
+    },
+    {
       "page": "/[lang]/auth/login",
       "regex": "^/([^/]+?)/auth/login(?:/)?$",
       "routeKeys": {
@@ -52,12 +68,84 @@
       "namedRegex": "^/(?<nxtPlang>[^/]+?)/diot(?:/)?$"
     },
     {
+      "page": "/[lang]/empresas",
+      "regex": "^/([^/]+?)/empresas(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/empresas(?:/)?$"
+    },
+    {
+      "page": "/[lang]/mapa",
+      "regex": "^/([^/]+?)/mapa(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/mapa(?:/)?$"
+    },
+    {
+      "page": "/[lang]/notificaciones",
+      "regex": "^/([^/]+?)/notificaciones(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/notificaciones(?:/)?$"
+    },
+    {
+      "page": "/[lang]/permisos",
+      "regex": "^/([^/]+?)/permisos(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/permisos(?:/)?$"
+    },
+    {
+      "page": "/[lang]/roles",
+      "regex": "^/([^/]+?)/roles(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/roles(?:/)?$"
+    },
+    {
       "page": "/[lang]/sensores",
       "regex": "^/([^/]+?)/sensores(?:/)?$",
       "routeKeys": {
         "nxtPlang": "nxtPlang"
       },
       "namedRegex": "^/(?<nxtPlang>[^/]+?)/sensores(?:/)?$"
+    },
+    {
+      "page": "/[lang]/tipoactuadores",
+      "regex": "^/([^/]+?)/tipoactuadores(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/tipoactuadores(?:/)?$"
+    },
+    {
+      "page": "/[lang]/tipoautomatizacion",
+      "regex": "^/([^/]+?)/tipoautomatizacion(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/tipoautomatizacion(?:/)?$"
+    },
+    {
+      "page": "/[lang]/tiposensores",
+      "regex": "^/([^/]+?)/tiposensores(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/tiposensores(?:/)?$"
+    },
+    {
+      "page": "/[lang]/tiposistema",
+      "regex": "^/([^/]+?)/tiposistema(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/tiposistema(?:/)?$"
     },
     {
       "page": "/[lang]/trabajos",

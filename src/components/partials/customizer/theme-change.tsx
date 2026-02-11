@@ -65,7 +65,7 @@ const ThemeChange = () => {
                     />
                     <div
                       className={cn(
-                        "flex h-9 w-9 items-center justify-center rounded-full border-2 text-xs",
+                        "flex h-9 w-9 items-center justify-center rounded-full border-2 text-xs cursor-pointer",
                         isActive
                           ? "border-[--theme-primary]"
                           : "border-transparent"
