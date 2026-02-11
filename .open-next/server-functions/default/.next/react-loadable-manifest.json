@@ -1,77 +1,156 @@
 {
   "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
-    "id": 5139,
+    "id": 45139,
     "files": [
-      "static/chunks/5139.c5e46d26064a85db.js"
+      "static/chunks/5139.e4ff9cc3669129ed.js"
     ]
   },
   "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
-    "id": 1646,
+    "id": 31646,
     "files": [
-      "static/chunks/1646.9123ee47220ed70b.js"
+      "static/chunks/1646.a93085a0445ba909.js"
+    ]
+  },
+  "app\\[lang]\\(dashboard)\\(home)\\daq\\basic-table.tsx -> ./componets/daqEditar": {
+    "id": 49063,
+    "files": [
+      "static/chunks/642-e412ff1ea4737290.js",
+      "static/chunks/9063.76eea2131bc85cc3.js"
+    ]
+  },
+  "app\\[lang]\\(dashboard)\\(home)\\daq\\page.tsx -> ./basic-table": {
+    "id": 72440,
+    "files": [
+      "static/chunks/5125-fe98aa857b1609d2.js",
+      "static/chunks/4193-bd233be5478a503c.js",
+      "static/chunks/8445-414e52ad56f0fddb.js",
+      "static/chunks/4879.b33dfe1b325bf000.js",
+      "static/chunks/8175.eb770c4f82524fc8.js",
+      "static/chunks/2440.e296ef758501c194.js"
+    ]
+  },
+  "app\\[lang]\\(dashboard)\\(home)\\daq\\page.tsx -> ./componets/daqAgregar": {
+    "id": 56329,
+    "files": [
+      "static/chunks/5125-fe98aa857b1609d2.js",
+      "static/chunks/642-e412ff1ea4737290.js",
+      "static/chunks/6329.0d17f09326749d4a.js"
     ]
   },
   "app\\[lang]\\(dashboard)\\(home)\\dashboard\\components\\reports-snapshot\\reports-chart.tsx -> react-apexcharts": {
-    "id": 5539,
+    "id": 55539,
     "files": [
-      "static/chunks/477d4af2.8ab99d0a6cad7ea5.js",
-      "static/chunks/5539.3e920b281d8c02f1.js"
+      "static/chunks/477d4af2.d8d3457fac8c74be.js",
+      "static/chunks/5539.4fd1e47d72180bd0.js"
+    ]
+  },
+  "app\\[lang]\\(dashboard)\\(home)\\diot\\basic-table.tsx -> ./componets/diotEditar": {
+    "id": 7055,
+    "files": [
+      "static/chunks/642-e412ff1ea4737290.js",
+      "static/chunks/7055.00afe97ebe6a1ce7.js"
+    ]
+  },
+  "app\\[lang]\\(dashboard)\\(home)\\diot\\page.tsx -> ./basic-table": {
+    "id": 75258,
+    "files": [
+      "static/chunks/5125-fe98aa857b1609d2.js",
+      "static/chunks/4193-bd233be5478a503c.js",
+      "static/chunks/8445-414e52ad56f0fddb.js",
+      "static/chunks/4879.b33dfe1b325bf000.js",
+      "static/chunks/8175.eb770c4f82524fc8.js",
+      "static/chunks/5258.2b88c4ec63854b51.js"
+    ]
+  },
+  "app\\[lang]\\(dashboard)\\(home)\\diot\\page.tsx -> ./componets/diotAgregar": {
+    "id": 82363,
+    "files": [
+      "static/chunks/5125-fe98aa857b1609d2.js",
+      "static/chunks/642-e412ff1ea4737290.js",
+      "static/chunks/2363.d45db44f872a54b6.js"
+    ]
+  },
+  "app\\[lang]\\(dashboard)\\(home)\\sensores\\basic-table.tsx -> ./componets/sensorEditar": {
+    "id": 12519,
+    "files": [
+      "static/chunks/642-e412ff1ea4737290.js",
+      "static/chunks/2519.9ae3a3189001e658.js"
+    ]
+  },
+  "app\\[lang]\\(dashboard)\\(home)\\sensores\\page.tsx -> ./basic-table": {
+    "id": 16735,
+    "files": [
+      "static/chunks/5125-fe98aa857b1609d2.js",
+      "static/chunks/4193-bd233be5478a503c.js",
+      "static/chunks/8445-414e52ad56f0fddb.js",
+      "static/chunks/4879.b33dfe1b325bf000.js",
+      "static/chunks/8175.eb770c4f82524fc8.js",
+      "static/chunks/9116.e8a20720a2bc7bd8.js"
+    ]
+  },
+  "app\\[lang]\\(dashboard)\\(home)\\sensores\\page.tsx -> ./componets/sensoresAgregar": {
+    "id": 7429,
+    "files": [
+      "static/chunks/5125-fe98aa857b1609d2.js",
+      "static/chunks/642-e412ff1ea4737290.js",
+      "static/chunks/7429.6fa31a15f156bd8e.js"
     ]
   },
   "app\\[lang]\\(dashboard)\\(home)\\trabajos\\basic-table.tsx -> ./components/TrabajoEditar": {
-    "id": 5176,
+    "id": 45176,
     "files": [
-      "static/chunks/642-a36073644dca0181.js",
-      "static/chunks/5176.bc0a14e325baed00.js"
+      "static/chunks/642-e412ff1ea4737290.js",
+      "static/chunks/5176.ebded9bf5eae6383.js"
     ]
   },
   "app\\[lang]\\(dashboard)\\(home)\\trabajos\\basic-table.tsx -> @/components/ui/dialog": {
-    "id": 1834,
+    "id": 51834,
     "files": []
   },
   "app\\[lang]\\(dashboard)\\(home)\\trabajos\\page.tsx -> ./basic-table": {
-    "id": 9204,
+    "id": 99204,
     "files": [
-      "static/chunks/5125-90a200a7d91d2ad0.js",
-      "static/chunks/4193-28abb5fbea0407b2.js",
-      "static/chunks/8445-f3fd4f8c7c65bb5f.js",
-      "static/chunks/9284-80dd573828bcf627.js",
-      "static/chunks/4704-3166450b9dfbb2d4.js",
-      "static/chunks/9204-5f6a303d792417b6.js"
+      "static/chunks/5125-fe98aa857b1609d2.js",
+      "static/chunks/4193-bd233be5478a503c.js",
+      "static/chunks/8445-414e52ad56f0fddb.js",
+      "static/chunks/9284-2f64426e119919a9.js",
+      "static/chunks/4704-87196265ff97db66.js",
+      "static/chunks/9204-f1ac9db4627822ca.js"
     ]
   },
   "app\\[lang]\\(dashboard)\\(home)\\trabajos\\page.tsx -> ./components/TrabajoAgregar": {
-    "id": 7920,
+    "id": 17920,
     "files": [
-      "static/chunks/5125-90a200a7d91d2ad0.js",
-      "static/chunks/642-a36073644dca0181.js",
-      "static/chunks/7920.f338d3d99924501f.js"
+      "static/chunks/5125-fe98aa857b1609d2.js",
+      "static/chunks/642-e412ff1ea4737290.js",
+      "static/chunks/7920.a40a884d4e901bf4.js"
     ]
   },
   "app\\[lang]\\(dashboard)\\(home)\\usuarios\\basic-table.tsx -> ./components/usuarioEditar": {
-    "id": 9844,
+    "id": 69844,
     "files": [
-      "static/chunks/642-a36073644dca0181.js",
-      "static/chunks/9844-46e221b6fbef19ca.js",
-      "static/chunks/3435.92d96d2202cb1e34.js"
+      "static/chunks/642-e412ff1ea4737290.js",
+      "static/chunks/9844-79f96524f839a900.js",
+      "static/chunks/3435.e1aea2fb645ecf5c.js"
     ]
   },
   "app\\[lang]\\(dashboard)\\(home)\\usuarios\\page.tsx -> ./basic-table": {
-    "id": 1200,
+    "id": 87488,
     "files": [
-      "static/chunks/5125-90a200a7d91d2ad0.js",
-      "static/chunks/4193-28abb5fbea0407b2.js",
-      "static/chunks/8445-f3fd4f8c7c65bb5f.js",
-      "static/chunks/954.57a2af893618d6e1.js",
-      "static/chunks/1200.7611d07483894239.js"
+      "static/chunks/5125-fe98aa857b1609d2.js",
+      "static/chunks/4193-bd233be5478a503c.js",
+      "static/chunks/8445-414e52ad56f0fddb.js",
+      "static/chunks/4879.b33dfe1b325bf000.js",
+      "static/chunks/8175.eb770c4f82524fc8.js",
+      "static/chunks/7488.44132ac5e6ccdc2e.js"
     ]
   },
   "app\\[lang]\\(dashboard)\\(home)\\usuarios\\page.tsx -> ./components/usuarioAgregar": {
-    "id": 5204,
+    "id": 45204,
     "files": [
-      "static/chunks/5125-90a200a7d91d2ad0.js",
-      "static/chunks/642-a36073644dca0181.js",
-      "static/chunks/5204.a67541743d1b4376.js"
+      "static/chunks/5125-fe98aa857b1609d2.js",
+      "static/chunks/642-e412ff1ea4737290.js",
+      "static/chunks/5204.fcba263daea793ab.js"
     ]
   }
 }

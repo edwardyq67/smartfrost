@@ -28,12 +28,36 @@
       "namedRegex": "^/(?<nxtPlang>[^/]+?)/auth/login(?:/)?$"
     },
     {
+      "page": "/[lang]/daq",
+      "regex": "^/([^/]+?)/daq(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/daq(?:/)?$"
+    },
+    {
       "page": "/[lang]/dashboard",
       "regex": "^/([^/]+?)/dashboard(?:/)?$",
       "routeKeys": {
         "nxtPlang": "nxtPlang"
       },
       "namedRegex": "^/(?<nxtPlang>[^/]+?)/dashboard(?:/)?$"
+    },
+    {
+      "page": "/[lang]/diot",
+      "regex": "^/([^/]+?)/diot(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/diot(?:/)?$"
+    },
+    {
+      "page": "/[lang]/sensores",
+      "regex": "^/([^/]+?)/sensores(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/sensores(?:/)?$"
     },
     {
       "page": "/[lang]/trabajos",

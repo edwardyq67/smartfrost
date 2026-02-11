@@ -10,9 +10,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import LogoutFooter from "./logout-footer";
+import thumbnail from "@/public/images/logo/_Logo smartfrost.png"; // ✅ IMPORT CORRECTO
 import { useMediaQuery } from "@/hooks/use-media-query";
 import MenuOverlayPortal from "./MenuOverlayPortal";
-import { ChevronLeft,Snowflake  } from "lucide-react";
+import { ChevronLeft } from "lucide-react"; // ✅ Solo ChevronLeft, eliminado Snowflake
 import { Button } from "@/components/ui/button";
 
 const ModuleSidebar = ({ trans }: { trans: any }) => {
@@ -30,7 +31,6 @@ const ModuleSidebar = ({ trans }: { trans: any }) => {
   const isMobile = useMediaQuery("(min-width: 768px)");
 
   // location
-
   const pathname = usePathname();
   const locationName = getDynamicPath(pathname);
 
@@ -155,9 +155,16 @@ const ModuleSidebar = ({ trans }: { trans: any }) => {
             }
           )}
         >
-          <div className=" pt-4 ">
+          <div className="pt-4 flex justify-center">
             <Link href="/dashboard">
-              <Snowflake className="mx-auto text-primary h-8 w-8" /> {/* ✅ AHORA FUNCIONA */}
+              <Image 
+                src={thumbnail}
+                alt="Smartfrost Logo"
+                className="h-8 w-8 object-contain"
+                width={32}
+                height={32}
+                priority
+              />
             </Link>
           </div>
           {/* end logo */}

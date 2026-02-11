@@ -28,7 +28,7 @@ import { useThemeStore } from "@/store";
 const ThemeCustomize = ({
   trigger = (
     <div className="fixed ltr:right-4 rtl:left-4 bottom-14 z-50">
-      <Button size="icon" className=" relative h-12 w-12 rounded-full ">
+      <Button size="icon" className=" relative h-12 w-12 rounded-full cursor-pointer">
         <Settings className="h-7 w-7 animate-spin" /> {/* ✅ CORRECTO */}
       </Button>
     </div>

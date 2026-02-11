@@ -3,7 +3,10 @@
   "/favicon.ico/route": "/favicon.ico",
   "/[lang]/auth/(login)/login/page": "/[lang]/auth/login",
   "/page": "/",
-  "/[lang]/(dashboard)/(home)/usuarios/page": "/[lang]/usuarios",
+  "/[lang]/(dashboard)/(home)/diot/page": "/[lang]/diot",
+  "/[lang]/(dashboard)/(home)/daq/page": "/[lang]/daq",
+  "/[lang]/(dashboard)/(home)/sensores/page": "/[lang]/sensores",
   "/[lang]/(dashboard)/(home)/trabajos/page": "/[lang]/trabajos",
+  "/[lang]/(dashboard)/(home)/usuarios/page": "/[lang]/usuarios",
   "/[lang]/(dashboard)/(home)/dashboard/page": "/[lang]/dashboard"
 }
