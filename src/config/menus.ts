@@ -27,10 +27,10 @@ const getModuleBaseRoute = (moduleName: string, routes: RoutePermission[]): stri
   );
 
   if (baseRoute) {
-    return `/${baseRoute.ruta}`;
+    return `/en/${baseRoute.ruta}`;
   }
 
-  return `/${moduleName.toLowerCase().replace(/\s+/g, '-')}`;
+  return `/en/${moduleName.toLowerCase().replace(/\s+/g, '-')}`;
 };
 
 export const useMenusConfig = () => {

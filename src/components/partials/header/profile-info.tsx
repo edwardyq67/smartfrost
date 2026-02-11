@@ -118,11 +118,11 @@ const ProfileInfo = () => {
 
       router.push('/auth/login');
       setTimeout(() => {
-        window.location.href = '/auth/login';
+        window.location.href = '/en/auth/login';
       }, 100);
 
     } catch (error) {
-      window.location.href = '/auth/login';
+      window.location.href = '/en/auth/login';
     }
   };
 

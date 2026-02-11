@@ -37,7 +37,7 @@
       "static/chunks/8445-f3fd4f8c7c65bb5f.js",
       "static/chunks/9284-80dd573828bcf627.js",
       "static/chunks/4704-3166450b9dfbb2d4.js",
-      "static/chunks/9204-7dcdc78b2d407b99.js"
+      "static/chunks/9204-5f6a303d792417b6.js"
     ]
   },
   "app\\[lang]\\(dashboard)\\(home)\\trabajos\\page.tsx -> ./components/TrabajoAgregar": {
@@ -45,7 +45,7 @@
     "files": [
       "static/chunks/5125-90a200a7d91d2ad0.js",
       "static/chunks/642-a36073644dca0181.js",
-      "static/chunks/7920.814e04e9c534a134.js"
+      "static/chunks/7920.f338d3d99924501f.js"
     ]
   },
   "app\\[lang]\\(dashboard)\\(home)\\usuarios\\basic-table.tsx -> ./components/usuarioEditar": {
@@ -63,7 +63,7 @@
       "static/chunks/4193-28abb5fbea0407b2.js",
       "static/chunks/8445-f3fd4f8c7c65bb5f.js",
       "static/chunks/954.57a2af893618d6e1.js",
-      "static/chunks/1200.1acd95eeae6a9d71.js"
+      "static/chunks/1200.7611d07483894239.js"
     ]
   },
   "app\\[lang]\\(dashboard)\\(home)\\usuarios\\page.tsx -> ./components/usuarioAgregar": {
@@ -71,7 +71,7 @@
     "files": [
       "static/chunks/5125-90a200a7d91d2ad0.js",
       "static/chunks/642-a36073644dca0181.js",
-      "static/chunks/5204.6ad194ae24e8782b.js"
+      "static/chunks/5204.a67541743d1b4376.js"
     ]
   }
 }
