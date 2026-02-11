@@ -1,7 +1,9 @@
 {
   "/favicon.ico/route": "/favicon.ico",
-  "/[lang]/(dashboard)/(home)/usuarios/page": "/[lang]/usuarios",
+  "/_not-found/page": "/_not-found",
   "/[lang]/login/page": "/[lang]/login",
   "/page": "/",
-  "/_not-found/page": "/_not-found"
+  "/[lang]/(dashboard)/(home)/usuarios/page": "/[lang]/usuarios",
+  "/[lang]/(dashboard)/(home)/trabajos/page": "/[lang]/trabajos",
+  "/[lang]/(dashboard)/(home)/dashboard/page": "/[lang]/dashboard"
 }

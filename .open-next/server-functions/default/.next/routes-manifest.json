@@ -20,12 +20,28 @@
   },
   "dynamicRoutes": [
     {
+      "page": "/[lang]/dashboard",
+      "regex": "^/([^/]+?)/dashboard(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/dashboard(?:/)?$"
+    },
+    {
       "page": "/[lang]/login",
       "regex": "^/([^/]+?)/login(?:/)?$",
       "routeKeys": {
         "nxtPlang": "nxtPlang"
       },
       "namedRegex": "^/(?<nxtPlang>[^/]+?)/login(?:/)?$"
+    },
+    {
+      "page": "/[lang]/trabajos",
+      "regex": "^/([^/]+?)/trabajos(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/trabajos(?:/)?$"
     },
     {
       "page": "/[lang]/usuarios",
