@@ -2,7 +2,7 @@
 import React from "react";
 import { Loader2 } from "lucide-react";
 import Image from "next/image";
-import logo from "@/public/images/logo/_Logo smartfrost.png";
+import logo from "@/public/images/logo/_Logo_smartfrost.png";
 import { useMediaQuery } from "@/hooks/use-media-query";
 
 const LayoutLoader = () => {

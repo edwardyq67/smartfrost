@@ -17,7 +17,7 @@ import { useEffect, useState, useCallback } from "react";
 import { notificacionesService, Notificacion } from "@/lib/notificaciones/UseNotificaciones";
 import { formatDistanceToNow } from "date-fns";
 import { es } from "date-fns/locale";
-import shortImage from "@/public/images/logo/_Logo smartfrost.png";
+import shortImage from "@/public/images/logo/_Logo_smartfrost.png";
 import { useAuthStore } from "@/store/auth.store";
 
 const NotificationMessage = () => {

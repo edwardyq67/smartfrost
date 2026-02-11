@@ -10,7 +10,7 @@ import { Loader2, Eye, EyeOff } from "lucide-react";
 import toast from "react-hot-toast";
 import { cn } from "@/lib/utils";
 import Image from "next/image"; // Cambiado de logo a Image
-import logo from "@/public/images/logo/_Logo smartfrost.png"; // Asegúrate de que esta ruta sea correcta
+import logo from "@/public/images/logo/_Logo_smartfrost.png"; // Asegúrate de que esta ruta sea correcta
 import { authService } from "@/lib/auth/auth";
 import { useMediaQuery } from "@/hooks/use-media-query";
 import { userService } from "@/lib/usuarios/UseUsuarios";

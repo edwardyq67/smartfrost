@@ -2,7 +2,7 @@ import React from "react";
 import { Search } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/images/logo/_Logo smartfrost.png";
+import logo from "@/public/images/logo/_Logo_smartfrost.png";
 
 const HorizontalHeader = ({ handleOpenSearch }: { handleOpenSearch: () => void }) => {
   return (

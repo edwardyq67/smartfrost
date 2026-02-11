@@ -16,7 +16,7 @@ const SidebarLogo = ({ hovered = false }: { hovered?: boolean }) => {
           {/* Logo como imagen */}
           <div className="relative h-8 w-8 flex-shrink-0">
             <Image
-              src="/images/logo/_Logo smartfrost.png" // Ajusta la ruta
+              src="/images/logo/_Logo_smartfrost.png" // Ajusta la ruta
               alt="Smartfrost Logo"
               width={32}
               height={32}

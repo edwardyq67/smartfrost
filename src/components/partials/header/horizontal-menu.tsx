@@ -5,7 +5,7 @@ import { cn, translate } from "@/lib/utils";
 import { ChevronDown } from "lucide-react";
 import Link from "next/link";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import image from "@/public/images/logo/_Logo smartfrost.png";
+import image from "@/public/images/logo/_Logo_smartfrost.png";
 import Image from "next/image";
 export default function MainMenu({ trans }: { trans: any }) {
   const menus = menusConfig.mainNav || [];
