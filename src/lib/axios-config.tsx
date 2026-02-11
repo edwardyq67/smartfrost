@@ -13,7 +13,7 @@ const handleAuthRedirect = () => {
     sessionStorage.clear();
     
     // Redirigir a login
-    window.location.href = '/en/auth/login';
+    window.location.href = '/auth/login';
   }
 };
 

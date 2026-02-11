@@ -192,48 +192,43 @@ const ProfileInfo = () => {
         <DropdownMenuTrigger asChild className="cursor-pointer">
           <div className="relative">
             {userPerfil?.avatar ? (
-              <div className="relative w-9 h-9 rounded-full overflow-hidden border-2 border-white/20 shadow-sm">
-                <Image
-                  src={userPerfil.avatar}
-                  alt={userPerfil?.nombre ?? "Perfil del usuario"}
-                  width={36}
-                  height={36}
-                  className="object-cover w-full h-full"
-                  priority={false}
-                  onError={(e) => {
-                    // Si la imagen falla, mostrar avatar de letra
-                    const target = e.target as HTMLImageElement;
-                    target.style.display = 'none';
-                    // Podríamos agregar lógica para mostrar el LetterAvatar aquí
-                  }}
-                />
-              </div>
-            ) : (
-              <LetterAvatar nombre={userPerfil?.nombre} size={36} />
-            )}
+  <div className="relative w-9 h-9 rounded-full overflow-hidden border-2 border-white/20 shadow-sm">
+    <img
+      src={userPerfil.avatar}
+      alt={userPerfil?.nombre ?? "Perfil del usuario"}
+      className="object-cover w-full h-full"
+      onError={(e) => {
+        e.currentTarget.style.display = 'none';
+      }}
+    />
+  </div>
+) : (
+  <LetterAvatar nombre={userPerfil?.nombre} size={36} />
+)}
           </div>
         </DropdownMenuTrigger>
         <DropdownMenuContent className="w-56 p-0" align="end">
           <DropdownMenuLabel className="flex gap-2 items-center mb-1 p-3">
             <div className="relative">
               {userPerfil?.avatar ? (
-                <div className="relative w-10 h-10 rounded-full overflow-hidden border-2 border-white/20 shadow-sm">
-                  <Image
+                <div className="relative w-9 h-9 rounded-full overflow-hidden border-2 border-white/20 shadow-sm">
+                  <img
                     src={userPerfil.avatar}
                     alt={userPerfil?.nombre ?? "Perfil del usuario"}
-                    width={40}
-                    height={40}
                     className="object-cover w-full h-full"
-                    priority={false}
                     onError={(e) => {
-                      const target = e.target as HTMLImageElement;
+                      const target = e.currentTarget;
                       target.style.display = 'none';
-                      // Podríamos agregar lógica para mostrar el LetterAvatar aquí
+                      // Opcional: mostrar avatar de letra como fallback
+                      const parent = target.parentElement;
+                      if (parent) {
+                        // Aquí podrías mostrar el LetterAvatar
+                      }
                     }}
                   />
                 </div>
               ) : (
-                <LetterAvatar nombre={userPerfil?.nombre} size={40} />
+                <LetterAvatar nombre={userPerfil?.nombre} size={36} />
               )}
             </div>
             <div>

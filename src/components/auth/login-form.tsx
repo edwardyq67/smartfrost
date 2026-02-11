@@ -77,7 +77,7 @@ const LogInForm = () => {
       }
 
       // Redireccionar usando router de Next.js
-      router.push("/dashboard");
+      router.push("/en/dashboard");
       router.refresh(); // Para refrescar el layout si hay cambios
       
       reset();

@@ -22,7 +22,7 @@ import FooterStyle from "./footer-style";
 import RtlSwitcher from "./rtl-switch";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import RadiusInit from "./radius";
-import { Settings } from "@/components/svg";
+import { Settings } from "lucide-react";
 import Link from "next/link";
 import { useThemeStore } from "@/store";
 
