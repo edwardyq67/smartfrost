@@ -5,8 +5,8 @@ import { cn, translate } from "@/lib/utils";
 import { ChevronDown } from "lucide-react";
 import Link from "next/link";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import image from "@/public/images/logo/logosmartfrost.png";
 import Image from "next/image";
+
 export default function MainMenu({ trans }: { trans: any }) {
   const menus = menusConfig.mainNav || [];
 
@@ -131,13 +131,13 @@ export default function MainMenu({ trans }: { trans: any }) {
                               "col-span-7 ": tab?.child?.length < 10,
                             })}
                           >
-                            <div className="h-full w-full  text-center">
+                            <div className="h-full w-full text-center">
                               <Image
-                                src={image}
-                                alt=""
-                                objectFit="cover"
+                                src="/images/logo/logosmartfrost.png" // ✅ RUTA DIRECTA DESDE PUBLIC
+                                alt="SmartFrost Logo"
                                 height={100}
                                 width={100}
+                                className="object-contain"
                               />
                             </div>
                           </div>
@@ -168,12 +168,12 @@ export default function MainMenu({ trans }: { trans: any }) {
 
 const ListItem = React.forwardRef<HTMLAnchorElement, any>(
   (
-    { className, children, title, childItem, trans, href, ...props }, // ← Añade href aquí
+    { className, children, title, childItem, trans, href, ...props },
     forwardedRef
   ) => (
     <NavigationMenu.Link asChild>
       <Link
-        href={href || "#"} // ← Añade href aquí (obligatorio)
+        href={href || "#"}
         className={cn(
           "select-none text-sm text-default-700 rounded-md flex items-center gap-2 mb-4 last:mb-0 leading-none no-underline outline-none transition-colors hover:text-primary focus:text-primary",
           className
@@ -187,3 +187,5 @@ const ListItem = React.forwardRef<HTMLAnchorElement, any>(
     </NavigationMenu.Link>
   )
 );
+
+ListItem.displayName = "ListItem";

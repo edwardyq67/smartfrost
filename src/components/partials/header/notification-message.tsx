@@ -17,7 +17,6 @@ import { useEffect, useState, useCallback } from "react";
 import { notificacionesService, Notificacion } from "@/lib/notificaciones/UseNotificaciones";
 import { formatDistanceToNow } from "date-fns";
 import { es } from "date-fns/locale";
-import shortImage from "@/public/images/logo/logosmartfrost.png";
 import { useAuthStore } from "@/store/auth.store";
 
 const NotificationMessage = () => {
@@ -119,7 +118,7 @@ const NotificationMessage = () => {
   };
 
   const getNotificationIcon = (tipo: string) => {
-    switch (tipo.toLowerCase()) {
+    switch (tipo?.toLowerCase()) {
       case 'trabajo':
       case 'job':
         return <FileText className="h-4 w-4 text-blue-500" />;
@@ -200,7 +199,9 @@ const NotificationMessage = () => {
         className="z-[60] mx-4 lg:w-[412px] p-0"
       >
         <DropdownMenuLabel
-          style={{ backgroundImage: `url(${shortImage.src})` }}
+          style={{ 
+            backgroundImage: `url(/images/logo/logosmartfrost.png)` // ✅ RUTA DIRECTA DESDE PUBLIC
+          }}
           className="w-full h-full bg-cover bg-no-repeat p-4 flex items-center"
         >
           <span className="text-base font-semibold text-white flex-1">

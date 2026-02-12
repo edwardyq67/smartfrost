@@ -4,18 +4,18 @@ import { cn } from "@/lib/utils";
 
 import { X } from "lucide-react";
 import { Icon } from "@iconify/react";
-import Image from "next/image";
-import thumbnail from "@/public/images/logo/logosmartfrost.png";
+import Image from "next/image";;
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
+
 const AddBlock = ({
   className,
-  image = thumbnail,
+  image = "/images/logo/logosmartfrost.png", // ✅ RUTA DIRECTA DESDE PUBLIC
   title = "Storage capacity",
   desc = " Out of your total storage on Premium Plan, you have used up 40%.",
 }: {
   className?: string;
-  image?: any;
+  image?: string; // ✅ CAMBIADO DE 'any' A 'string'
   title?: string;
   desc?: string;
 }) => {
@@ -24,17 +24,23 @@ const AddBlock = ({
     <>
       <div
         className={cn(
-          "bg-primary dark:bg-default-400 text-primary-foreground pt-5 pb-4 px-4  rounded  m-3 hidden xl:block",
+          "bg-primary dark:bg-default-400 text-primary-foreground pt-5 pb-4 px-4 rounded m-3 hidden xl:block",
           className
         )}
       >
         <div className={cn("text-base font-semibold text-primary-foreground")}>
-          {" "}
           {title}
         </div>
         <div className={cn(" text-sm text-primary-foreground")}>{desc}</div>
         <div className="mt-4 relative">
-          <Image src={image} alt="footer-thumbnail" className="w-full h-full" priority={true} />
+          <Image 
+            src={image} 
+            alt="footer-thumbnail" 
+            className="w-full h-full" 
+            width={300}
+            height={200}
+            priority={true} 
+          />
           <Button
             size="icon"
             type="button"
@@ -48,9 +54,9 @@ const AddBlock = ({
             />
           </Button>
         </div>
-        <div className="text-sm font-semibold  text-primary-foreground flex items-center gap-2 mt-4">
+        <div className="text-sm font-semibold text-primary-foreground flex items-center gap-2 mt-4">
           Upgrade Now
-          <Icon icon="heroicons:arrow-long-right" className="w-5 h-5" />{" "}
+          <Icon icon="heroicons:arrow-long-right" className="w-5 h-5" />
         </div>
       </div>
       <Dialog open={openVideo}>
@@ -78,7 +84,3 @@ const AddBlock = ({
 };
 
 export default AddBlock;
-
-
-
-

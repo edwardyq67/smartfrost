@@ -9,8 +9,7 @@ import { Label } from "@/components/ui/label";
 import { Loader2, Eye, EyeOff } from "lucide-react";
 import toast from "react-hot-toast";
 import { cn } from "@/lib/utils";
-import Image from "next/image"; // Cambiado de logo a Image
-import logo from "@/public/images/logo/logosmartfrost.png"; // Asegúrate de que esta ruta sea correcta
+import Image from "next/image";
 import { authService } from "@/lib/auth/auth";
 import { useMediaQuery } from "@/hooks/use-media-query";
 import { userService } from "@/lib/usuarios/UseUsuarios";
@@ -24,11 +23,11 @@ const schema = z.object({
 type FormData = z.infer<typeof schema>;
 
 const LogInForm = () => {
-  const [isPending, setIsPending] = React.useState(false); // Cambiado de startTransition
+  const [isPending, setIsPending] = React.useState(false);
   const [passwordType, setPasswordType] = React.useState("password");
   const [isMounted, setIsMounted] = React.useState(false);
   const isDesktop2xl = useMediaQuery("(max-width: 1530px)");
-  const router = useRouter(); // Usar router de Next.js
+  const router = useRouter();
 
   React.useEffect(() => {
     setIsMounted(true);
@@ -72,13 +71,12 @@ const LogInForm = () => {
           });
         } catch (error) {
           console.warn('No se pudo actualizar el ID de OneSignal:', error);
-          // No mostrar error al usuario, es opcional
         }
       }
 
       // Redireccionar usando router de Next.js
       router.push("/en/dashboard");
-      router.refresh(); // Para refrescar el layout si hay cambios
+      router.refresh();
       
       reset();
     } catch (error: any) {
@@ -101,14 +99,14 @@ const LogInForm = () => {
 
   return (
     <div className="w-full py-10">
-        <Image 
-          src={logo}
-          alt="SmartFrost Logo"
-          width={isDesktop2xl ? 56 : 64}
-          height={isDesktop2xl ? 56 : 64}
-          className="2xl:w-auto 2xl:h-14 w-20 h-20"
-          priority
-        />
+      <Image 
+        src="/images/logo/logosmartfrost.png" // ✅ RUTA DIRECTA DESDE PUBLIC
+        alt="SmartFrost Logo"
+        width={isDesktop2xl ? 56 : 64}
+        height={isDesktop2xl ? 56 : 64}
+        className="2xl:w-auto 2xl:h-14 w-20 h-20"
+        priority
+      />
       <div className="2xl:mt-8 mt-6 2xl:text-3xl text-2xl font-bold text-default-900">
         ¡Hola! 👋
       </div>

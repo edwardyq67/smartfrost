@@ -2,7 +2,6 @@
 import React from "react";
 import { Loader2 } from "lucide-react";
 import Image from "next/image";
-import logo from "@/public/images/logo/logosmartfrost.png";
 import { useMediaQuery } from "@/hooks/use-media-query";
 
 const LayoutLoader = () => {
@@ -12,7 +11,7 @@ const LayoutLoader = () => {
     <div className="h-screen flex items-center justify-center flex-col space-y-4">
       <div className="relative">
         <Image 
-          src={logo}
+          src="/images/logo/logosmartfrost.png" // ✅ RUTA DIRECTA DESDE PUBLIC
           alt="SmartFrost Logo"
           width={isDesktop2xl ? 80 : 96}
           height={isDesktop2xl ? 80 : 96}

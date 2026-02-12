@@ -2,7 +2,6 @@ import React from "react";
 import { Search } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/images/logo/logosmartfrost.png";
 
 const HorizontalHeader = ({ handleOpenSearch }: { handleOpenSearch: () => void }) => {
   return (
@@ -15,7 +14,7 @@ const HorizontalHeader = ({ handleOpenSearch }: { handleOpenSearch: () => void }
         >
           <div className="relative">
             <Image 
-              src={logo}
+              src="/images/logo/logosmartfrost.png" // ✅ RUTA DIRECTA DESDE PUBLIC
               alt="SmartFrost Logo"
               width={32}
               height={32}

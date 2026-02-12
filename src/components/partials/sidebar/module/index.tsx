@@ -10,10 +10,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import LogoutFooter from "./logout-footer";
-import thumbnail from "@/public/images/logo/logosmartfrost.png"; // ✅ IMPORT CORRECTO
 import { useMediaQuery } from "@/hooks/use-media-query";
 import MenuOverlayPortal from "./MenuOverlayPortal";
-import { ChevronLeft } from "lucide-react"; // ✅ Solo ChevronLeft, eliminado Snowflake
+import { ChevronLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const ModuleSidebar = ({ trans }: { trans: any }) => {
@@ -158,7 +157,7 @@ const ModuleSidebar = ({ trans }: { trans: any }) => {
           <div className="pt-4 flex justify-center">
             <Link href="/dashboard">
               <Image 
-                src={thumbnail}
+                src="/images/logo/logosmartfrost.png" // ✅ RUTA DIRECTA DESDE PUBLIC
                 alt="Smartfrost Logo"
                 className="h-8 w-8 object-contain"
                 width={32}
